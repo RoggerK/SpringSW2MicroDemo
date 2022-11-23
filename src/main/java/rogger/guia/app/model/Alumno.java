@@ -13,7 +13,7 @@ public class Alumno {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idAlumno;
 	private String nombre;
-	private Integer apellido;
+	private String apellido;
 	
 	public Integer getIdAlumno() {
 		return idAlumno;
@@ -27,10 +27,11 @@ public class Alumno {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public Integer getApellido() {
+	public String getApellido() {
 		return apellido;
 	}
-	public void setApellido(Integer apellido) {
+	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+	
 }
