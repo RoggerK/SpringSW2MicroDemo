@@ -21,7 +21,7 @@ import rogger.guia.app.service.AlumnoService;
 public class AlumnoController {
 	@Autowired
 	private AlumnoService service;
-	
+
 	@GetMapping("/hola")
 	public @ResponseBody String hola() {
 		return "hola como estas";

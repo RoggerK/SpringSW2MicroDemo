@@ -29,10 +29,11 @@ public class AlumnoServiceImpl implements AlumnoService {
             listadto.add(dto);
         }
         
-//        repository.findAll().stream()
-//        	.map(a -> new )
-        
-        return listadto;
+		return listadto;
+		
+//        return repository.findAll().stream()
+//            	.map(a -> new AlumnoDTO(a.getIdAlumno(), a.getNombre(), a.getApellido()))
+//            	.collect(Collectors.toList());
 	}
 
 	@Override
