@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>rogger.guia.app</groupId>
-	<artifactId>SpingSW2MicroDemo</artifactId>
+	<artifactId>SpingSW2MicroAlumno</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpingSW2MicroDemo</name>
-	<description>SpingSW2MicroDemo</description>
+	<name>SpingSW2MicroAlumno</name>
+	<description>SpingSW2MicroAlumno</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
